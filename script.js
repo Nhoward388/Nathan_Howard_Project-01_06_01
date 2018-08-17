@@ -21,7 +21,6 @@ function validateRequired() {
             else {
                 currentElement.style.background = "white";
                 errorSpace.style.display = "none";
-                fieldSetValidity = true;
             }
         }
         if (fieldSetValidity === false) {
